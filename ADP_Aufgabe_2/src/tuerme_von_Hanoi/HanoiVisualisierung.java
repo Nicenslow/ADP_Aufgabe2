@@ -59,7 +59,7 @@ public class HanoiVisualisierung extends Application {
 
         // Hier in den setup()-Aufruf müssen Sie Ihren Algorithmus einbauen
         HanoiLoesung hanoi = new HanoiLoesung();
-        int n = 14;
+        int n = 7;
         setup(n, hanoi.hanoi(n));
         zeichneZustand();
         primaryStage.show();

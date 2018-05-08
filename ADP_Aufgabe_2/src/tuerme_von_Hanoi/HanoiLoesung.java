@@ -19,7 +19,8 @@ public class HanoiLoesung {
      * @return Liste der Schritte
      */
     public ArrayList<Paar<Integer>> hanoi(int n) {
-        ArrayList<Paar<Integer>> schritteListe  = new ArrayList<>();
+    	counter = 0;
+    	ArrayList<Paar<Integer>> schritteListe  = new ArrayList<>();
         //Berechne den Algorithmus.
         rekursiv(n, 0, 2, 1, schritteListe );
         System.out.println(counter);
